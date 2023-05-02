@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  bbdd:
+    build: ./mysql
+    container_name: mysql
+    networks:
+      - proyectos
+
+  back:
+    build: ./back
+    container_name: api
+    networks:
+      - proyectos
+
+  front:
+    build: ./front
+    container_name: web
+    ports:
+      - "8080:8080"
+    networks:
+      - proyectos
+
+networks:
+  proyectos:
+    driver: bridge

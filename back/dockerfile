@@ -1,0 +1,4 @@
+FROM amazoncorretto:11
+COPY target/back-1.0-SNAPSHOT.jar back.jar
+
+ENTRYPOINT ["java","-jar", "/back.jar"]

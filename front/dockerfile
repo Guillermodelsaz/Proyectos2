@@ -1,0 +1,7 @@
+FROM amazoncorretto:11
+RUN mkdir /app
+COPY target/front-1.0-SNAPSHOT.jar /app/front.jar
+COPY /img /app/img
+WORKDIR /app
+ENTRYPOINT ["java", "-jar", "front.jar"]
+

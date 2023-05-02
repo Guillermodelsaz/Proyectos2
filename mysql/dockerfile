@@ -1,0 +1,5 @@
+FROM mysql:latest
+ENV MYSQL_ROOT_PASSWORD=crakovia
+ENV MYSQL_DATABASE=proyectos
+
+COPY tablas.sql /docker-entrypoint-initdb.d/
