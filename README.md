@@ -1,6 +1,6 @@
 # Proyectos2
-#Para levantar la applicación
+# Para levantar la applicación
 docker-compose up -d
 
-#Requisitos:
+# Requisitos:
 Docker instalado
