@@ -5,10 +5,11 @@ docker-compose up -d
 # Requisitos:
 Docker instalado
 
-# Miembros del Equipo
+# Miembros del Equipo:
 
-Guillermo del Saz
-Inés Álvarez de Toledo
-Blanca Herreros de Tejada
-Marta Meneses
-Lucas Pedroso
+- *Guillermo del Saz*.
+
+- *Inés Álvarez de Toledo*.
+- *Blanca Herreros de Tejada*.
+- *Marta Meneses*.
+- *Lucas Pedroso*.
